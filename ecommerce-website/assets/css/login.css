@@ -1,0 +1,63 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-image: url('../images/Universal-BG.png');
+background-size: cover;
+}
+header {
+background: #111;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+border-bottom: 1px solid #333;
+box-shadow: 0 0 10px rgba(242, 242, 242, 0.267);
+}
+nav a {
+margin-left: 20px;
+color: white;
+text-decoration: none;
+}
+.login-box {
+display: flex;
+justify-content: center;
+margin-top: 80px;
+margin-bottom: 50%;
+
+}
+.login-box form {
+background: rgba(138, 137, 137, 0.035);
+padding: 35px 70px;
+border: 1px solid #333;
+border-radius: 10px;
+width: 300px;
+box-shadow: 0 0 10px rgba(242, 242, 242, 0.267);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+input {
+width: 100%;
+padding: 12px;
+margin: 10px 0;
+border-radius: 20px;
+background-color: #111;
+
+}
+button {
+width: 100%;
+padding: 12px 50px;
+border: none;
+background-color: #ff5500;
+color:white;
+font-weight: bold;
+border-radius: 10px;
+margin: 20px
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background: #111;
+color: white;
+}
