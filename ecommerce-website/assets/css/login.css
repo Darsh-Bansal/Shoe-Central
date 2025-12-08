@@ -42,7 +42,12 @@ padding: 12px;
 margin: 10px 0;
 border-radius: 20px;
 background-color: #111;
+color: white;
+border: 1px solid #333;
+}
 
+input::placeholder {
+color: #888;
 }
 button {
 width: 100%;
