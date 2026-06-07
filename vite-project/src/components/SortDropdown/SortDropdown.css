@@ -1,0 +1,10 @@
+.sort-dropdown-shell select {
+  width: 100%;
+  max-width: 240px;
+  padding: 0.85rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  appearance: none;
+}

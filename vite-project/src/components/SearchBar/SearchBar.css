@@ -1,0 +1,19 @@
+.searchbar-shell {
+  display: inline-flex;
+  width: 100%;
+  max-width: 340px;
+}
+
+.searchbar-shell input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  outline: none;
+}
+
+.searchbar-shell input::placeholder {
+  color: #a0a9b5;
+}

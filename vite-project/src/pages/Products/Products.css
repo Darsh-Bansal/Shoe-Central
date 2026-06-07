@@ -1,0 +1,52 @@
+.products-shell {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.products-grid-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.products-grid-header h2 {
+  margin: 0.2rem 0 0;
+}
+
+.clear-filter {
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  padding: 0.95rem 1.1rem;
+  border-radius: 999px;
+}
+
+.products-layout {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+.products-main {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.products-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.products-filter-state {
+  margin: 0.25rem 0 0;
+  color: #9aa0ac;
+}
+
+@media (max-width: 980px) {
+  .products-layout {
+    grid-template-columns: 1fr;
+  }
+}
