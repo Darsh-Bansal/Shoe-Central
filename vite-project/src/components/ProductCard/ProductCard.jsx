@@ -37,7 +37,7 @@ function ProductCard({ product, onAddToCart }) {
       <div className="product-card-content">
         <div>
           <p className="product-card-title">{product.name}</p>
-          <p className="product-card-price">${product.price.toFixed(2)}</p>
+          <p className="product-card-price">₹{product.price.toFixed(2)}</p>
         </div>
         <button className="product-card-button" onClick={() => onAddToCart(product)}>
           Add to Cart

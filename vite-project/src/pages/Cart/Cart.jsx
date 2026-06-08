@@ -22,7 +22,7 @@ function Cart({ cart, incrementItem, decrementItem }) {
         </div>
         <div className="cart-summary">
           <span>{totalItems} items</span>
-          <span>Subtotal: ${subtotal.toFixed(2)}</span>
+          <span>Subtotal: ₹{subtotal.toFixed(2)}</span>
         </div>
       </div>
 
@@ -43,7 +43,7 @@ function Cart({ cart, incrementItem, decrementItem }) {
         <div className="cart-footer card-shadow">
           <div>
             <p className="text-muted">Subtotal</p>
-            <h3>${subtotal.toFixed(2)}</h3>
+            <h3>₹{subtotal.toFixed(2)}</h3>
           </div>
           <button className="primary-button">Checkout</button>
         </div>

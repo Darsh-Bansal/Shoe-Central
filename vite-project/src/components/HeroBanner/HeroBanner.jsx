@@ -17,7 +17,7 @@ function HeroBanner({ onAction }) {
         <div className="hero-card card-shadow">
           <p className="tag">New Arrival</p>
           <h2>Utility Cargo Pants</h2>
-          <span>$74</span>
+          <span>Style with function</span>
         </div>
       </div>
     </section>
