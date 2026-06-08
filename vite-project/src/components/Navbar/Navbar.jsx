@@ -6,7 +6,7 @@ function Navbar({ currentPage, onNavigate, cartCount, searchValue, onSearchChang
     <header className="navbar-shell">
       <div className="navbar-brand">
         <button className="navbar-logo" onClick={() => onNavigate('home')}>
-          street.
+          KIXOR
         </button>
         <nav className="navbar-links">
           <button className={currentPage === 'home' ? 'active' : ''} onClick={() => onNavigate('home')}>
@@ -15,9 +15,7 @@ function Navbar({ currentPage, onNavigate, cartCount, searchValue, onSearchChang
           <button className={currentPage === 'products' ? 'active' : ''} onClick={() => onNavigate('products')}>
             Shop
           </button>
-          <button className={currentPage === 'cart' ? 'active' : ''} onClick={() => onNavigate('cart')}>
-            Cart
-          </button>
+          
         </nav>
       </div>
 

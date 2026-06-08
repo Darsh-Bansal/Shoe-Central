@@ -50,9 +50,9 @@
 
 .navbar-actions {
   display: flex;
+  flex-direction: row;
   gap: 1rem;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .cart-badge {
