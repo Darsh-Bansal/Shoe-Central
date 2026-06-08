@@ -1,3 +1,5 @@
+import imageTest from './image_test.png';
+
 const products = [
   {
     id: 1,
@@ -153,6 +155,17 @@ const products = [
     images: [
       'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80',
       'https://images.unsplash.com/photo-1495121605193-b116b5b9c5d5?auto=format&fit=crop&w=900&q=80',
+    ],
+  },
+  {
+    id: 14,
+    name: 'heels',
+    category: 'Tops',
+    subCategory: 'Hoodies',
+    price: 72,
+    tags: ['new-arrival'],
+    images: [
+      imageTest,
     ],
   },
 ];
